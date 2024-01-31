@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.text-in-container{
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: larger;
+    border-image: fill 0 linear-gradient(rgba(241, 221, 221, 0.067), #000);
+}
+
+
+/* YourCarouselStyles.css */
+
+.top-pick-carousel {
+    display: flex;
+    overflow-x: auto;
+    /* scroll-snap-type: x mandatory; */
+  }
+  
+  .top-pick-item {
+    min-width: 45%;
+    width: 50%;
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+  }
+  
