@@ -24,7 +24,7 @@ const Navbar = () => {
             <ul className='font-semibold cursor-pointer hover:text-orange-400 transition-all flex items-center'><Link to={"/"}>Home</Link> <FaHome className="ml-2"/></ul>
             <ul className='font-semibold cursor-pointer hover:text-orange-400 transition-all flex items-center'>Help <FaHandsHelping className="ml-2"/></ul>
             <ul className='font-semibold cursor-pointer hover:text-orange-400 transition-all flex items-center'><Link to={"/cart"}>Cart - {selector.length}</Link> <FaShoppingCart className="ml-2"/> </ul>
-            <ul className='font-semibold cursor-pointer hover:text-orange-400 transition-all flex items-center'>GitHub <FaGithub className="ml-2"/></ul>
+            <ul className='font-semibold cursor-pointer hover:text-orange-400  flex items-center justify-between'><Link to={"https://github.com/Rajan21252125/FoodBox.git"} className="flex items-center">GitHub <FaGithub className="ml-2"/></Link></ul>
         </li>
         <div className="relative block md:hidden">
           <p className="font-semibold cursor-pointer flex items-center hover:text-orange-400 transition-all">{isOnline ? "Online : 📗" : "Offline : 📕"}<FaBars className="ml-4" onClick={toggleShow}/> </p>
@@ -32,7 +32,7 @@ const Navbar = () => {
             <ul className='font-semibold cursor-pointer hover:text-orange-400  flex items-center justify-between'><Link to={"/"}>Home</Link> <FaHome className="ml-2"/></ul>
             <ul className='font-semibold cursor-pointer hover:text-orange-400  flex items-center justify-between'>Help <FaHandsHelping className="ml-2"/></ul>
             <ul className='font-semibold cursor-pointer hover:text-orange-400  flex items-center justify-between'><Link to={"/cart"}>Cart - {selector.length}</Link> <FaShoppingCart className="ml-2"/> </ul>
-            <ul className='font-semibold cursor-pointer hover:text-orange-400  flex items-center justify-between'>GitHub <FaGithub className="ml-2"/></ul>
+            <ul className='font-semibold cursor-pointer hover:text-orange-400  flex items-center justify-between'><Link to={"https://github.com/Rajan21252125/FoodBox.git"} className="flex items-center">GitHub <FaGithub className="ml-2"/></Link></ul>
         </li>
         </div>
       </div>
