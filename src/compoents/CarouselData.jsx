@@ -1,7 +1,7 @@
 /* eslint-disable react-hooks/rules-of-hooks */
 import { Link, useParams } from "react-router-dom";
 import useCarousel from "../utils/CustomHook/useCarousel";
-import Card from "./card";
+import Card from "./Card";
 import Shimmer from "./Shimmer/Shimmer";
 import useStringFormat from "../utils/CustomHook/useStringFormat";
 

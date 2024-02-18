@@ -31,7 +31,7 @@ const TopCarousel = ({data}) => {
           carousel.map((data) => {
             return (
               <Link key={data?.id} to={`/carousel/${useStringFormat(data?.entityId)}`}>
-                <img src={`${IMG_URL}${data?.imageId}`} alt="" className="min-w-28 lg:min-w-36"/>
+                <img src={`${IMG_URL}${data?.imageId}`} alt="" className="min-w-28 lg:min-w-36 hover:scale-90 transition-transform"/>
               </Link>
             );
           })}
