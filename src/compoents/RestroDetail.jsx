@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import TopPick from "./TopPick";
+import TopPick from "./topPick";
 import useRestroDetails from "../utils/CustomHook/useRestroDetails";
 import { FaChevronUp, FaChevronDown } from "react-icons/fa";
 import { useState } from "react";
